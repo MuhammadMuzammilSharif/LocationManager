@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.muhammadmuzammilsharif.demolibrary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/library_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".DemoMainActivity"
+            android:label="Demo Main Location">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DemoLocationActivity"
+            android:label="Demo Location Activity" />
+
+        <activity
+            android:name=".DemoLocationFragmentActivity"
+            android:label="Demo Activity Location Fragment" />
+
+        <activity
+            android:name=".DemoLocationActivityAndFragment"
+            android:label="Demo Location Activity and Fragment" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.muhammadmuzammilsharif.demolibrary.DemoMainActivity">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Activity"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity with Location Fragment"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Activity with fragment"
+        android:textSize="17sp" />
+
+
+</LinearLayout>
