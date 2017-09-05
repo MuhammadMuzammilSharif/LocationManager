@@ -1,4 +1,4 @@
-#Location Helper Demo#
+#Location Helper Demo
 
 A location helper demo that let you get device current location using fused location provider (i.e. works even in the absence of internet).  
 (Fused Location Provider is a Google Play Service Location APIs).
