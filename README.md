@@ -116,6 +116,8 @@ in these methods you have to show needed permission dialog and enable location s
     	            }
     	        }).show();
     	}
+
+
 ![showNeededLocationPermissionDialog](1.png) ![showLocationServiceEnableDialog](2.png)
 
 3. **onLocationChanged(Location location)**
@@ -156,6 +158,7 @@ there are some screen shots of demoLcoationHelper Application bellow:
 ![DemoLocationActivityAndFragmentLocation](7.png)
 
 ##Licence##
+
 Copyright (C) 2017 Muhammad Muzammil Sharif
 
 Licensed under the Apache License, Version 2.0 (the "License");
