@@ -1,11 +1,14 @@
 #Location Helper Demo#
+
 A location helper demo that let you get device current location using fused location provider (i.e. works even in the absence of internet).  
 (Fused Location Provider is a Google Play Service Location APIs).
 
 ##Introduction:##
+
 This Demo Application will help you how to get device current location in your application's activity or fragment by added a few lines of code. For a working implementation please have a look at sample application _"[**LocationHelperDemo**](https://github.com/MuhammadMuzammilSharif/LocationHelperDemo)"_.
 
 ##Usage:##
+
 To use Location helper Library for getting device current location you just need to add a few lines of code in your application:
 ###Prerequisites:###
 1. Include library to build.gradle app level:
@@ -35,6 +38,7 @@ extend "**LocationActivity**"
 		}
 
 ###Include In Fragment###
+
 * **if activity in which the location needed fragment loaded not using location service then:**    
 	
 	extend "**_LocationFragment_**"
@@ -118,11 +122,12 @@ in these methods you have to show needed permission dialog and enable location s
     	}
 
 
-![showNeededLocationPermissionDialog](1.png) ![showLocationServiceEnableDialog](2.png)
+![showNeededLocationPermissionDialog](1.png)  ![showLocationServiceEnableDialog](2.png)
 
 3. **onLocationChanged(Location location)**
 
 	this method call when current location updated.
+
 ###Other Methods:###
 
 1. **openAppPermissionSettingToEnableLocation(String);** _non override method_
