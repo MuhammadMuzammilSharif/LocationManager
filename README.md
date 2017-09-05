@@ -148,7 +148,12 @@ in these methods you have to show needed permission dialog and enable location s
 
 there are some screen shots of demoLcoationHelper Application bellow: 
 
-![DemoActivityLocation](5.png) ![DemoActivityFragmantLocation](6.png) ![DemoLocationActivityAndFragmentLocation](7.png)
+* Getting Device Current Location in activity.  
+![DemoActivityLocation](5.png)  
+* Getting Device Current Location in Fragment Only.  
+![DemoActivityFragmantLocation](6.png) 
+* Getting Device Current Location in both activity and Fragment.  
+![DemoLocationActivityAndFragmentLocation](7.png)
 
 ##Licence##
 Copyright (C) 2017 Muhammad Muzammil Sharif
