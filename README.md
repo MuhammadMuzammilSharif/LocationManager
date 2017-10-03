@@ -13,7 +13,7 @@ To use Location helper Library for getting device current location you just need
 ### Prerequisites: ###
 1. Include library to build.gradle app level:
 
-		compile 'com.muhammadmuzammilsharif.locationhelper:locationhelper:1.1.1'
+		compile 'com.muhammadmuzammilsharif.locationhelper:locationhelper:1.2'
 if your application not using jcenter repository then add  
 **_(only if in repositories session "jcenter()" is not included_**
 		
@@ -31,11 +31,13 @@ if your application not using jcenter repository then add
     	<uses-permission android:name="android.permission.INTERNET"/>
 
 ### Include In Activity ###
-extend "**LocationActivity**"
+extend "**LocationAppCompatActivity** OR **LocationFragmentActivity** OR **LocationBaseActivity** OR **LocationActionBarActivity**"
 
-		public class DemoLocationActivity extends LocationActivity { 
+		public class DemoLocationActivity extends LocationAppCompatActivity { 
 			...
 		}
+
+**Note: _"LocationActivity"_** is now **_Deprecated_** due to old coding and naming conventions and Not Supporting multiple types of activities.
 
 ### Include In Fragment ###
 
@@ -122,7 +124,7 @@ in these methods you have to show needed permission dialog and enable location s
     	}
 
 
-![showNeededLocationPermissionDialog](1.png)  ![showLocationServiceEnableDialog](2.png)
+![showNeededLocationPermissionDialog](screens/1.png)  ![showLocationServiceEnableDialog](screens/2.png)
 
 3. **onLocationChanged(Location location)**
 
@@ -137,13 +139,13 @@ in these methods you have to show needed permission dialog and enable location s
 	 	
 		YOUR_APPICATION_PACKAGE_NAME.BuildConfig.APPLICATION_ID;
 
-![openAppPermissionSettingToEnableLocation(String)](3.png) 
+![openAppPermissionSettingToEnableLocation(String)](screens/3.png) 
  
 2. **openLocationServiceSetting();** _non override method_
 	
 	This method open location service setting 
 
-![openLocationServiceSetting()](4.png)
+![openLocationServiceSetting()](screens/4.png)
 
 3. **startLocationService();** _non override method_
 	
@@ -156,11 +158,11 @@ in these methods you have to show needed permission dialog and enable location s
 there are some screen shots of demoLcoationHelper Application bellow: 
 
 * Getting Device Current Location in activity.  
-![DemoActivityLocation](5.png)  
+![DemoActivityLocation](screens/5.png)  
 * Getting Device Current Location in Fragment Only.  
-![DemoActivityFragmantLocation](6.png) 
+![DemoActivityFragmantLocation](screens/6.png) 
 * Getting Device Current Location in both activity and Fragment.  
-![DemoLocationActivityAndFragmentLocation](7.png)
+![DemoLocationActivityAndFragmentLocation](screens/7.png)
 
 ## Licence: ##
 

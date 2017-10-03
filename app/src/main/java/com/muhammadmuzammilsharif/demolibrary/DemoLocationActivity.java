@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.widget.TextView;
 
-import com.muhammadmuzammilsharif.locationhelper.Location.LocationActivity;
+import com.muhammadmuzammilsharif.locationhelper.Location.LocationAppCompatActivity;
 
 import java.text.DateFormat;
 import java.util.Date;
 
 
-public class DemoLocationActivity extends LocationActivity {
+public class DemoLocationActivity extends LocationAppCompatActivity {
     private TextView textView;
 
     @Override

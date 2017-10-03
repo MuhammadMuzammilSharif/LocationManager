@@ -8,12 +8,13 @@ import android.support.v7.app.AlertDialog;
 import android.widget.TextView;
 
 import com.muhammadmuzammilsharif.locationhelper.Location.LocationActivity;
+import com.muhammadmuzammilsharif.locationhelper.Location.LocationAppCompatActivity;
 import com.muhammadmuzammilsharif.locationhelper.Location.OnLocationChangeListener;
 
 import java.text.DateFormat;
 import java.util.Date;
 
-public class DemoLocationActivityAndFragment extends LocationActivity {
+public class DemoLocationActivityAndFragment extends LocationAppCompatActivity {
     private TextView textView;
     private OnLocationChangeListener listener = null;
 
