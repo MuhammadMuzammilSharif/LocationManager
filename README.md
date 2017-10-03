@@ -55,7 +55,7 @@ extend "**LocationAppCompatActivity** OR **LocationFragmentActivity** OR **Locat
 			public class MyFragment extends Fragment implements OnLocationChangeListener { 
 				... 
 			}
-	and create an instance of **_OnLocationChangeListener_** in Location activity in which location needed fragment is loaded and initial in with the instance of fragment like:
+	and create an instance of **_OnLocationChangeListener_** in Location activity in which location needed fragment is loaded and initialize it with the instance of fragment like:
 		
 			MyFragment mFragment = new MyFragment();
         	listener = (OnLocationChangeListener) mFragment;
