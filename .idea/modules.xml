@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LocationHelperDemo.iml" filepath="$PROJECT_DIR$/LocationHelperDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/locationhelper/locationhelper.iml" filepath="$PROJECT_DIR$/locationhelper/locationhelper.iml" />
+      <module fileurl="file://C:\Users\Muzammil\Documents\myGit\LocationHelperDemo\locationhelper\locationhelper.iml" filepath="C:\Users\Muzammil\Documents\myGit\LocationHelperDemo\locationhelper\locationhelper.iml" />
     </modules>
   </component>
 </project>

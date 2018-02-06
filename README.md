@@ -13,7 +13,11 @@ To use Location helper Library for getting device current location you just need
 ### Prerequisites: ###
 1. Include library to build.gradle app level:
 
-		compile 'com.muhammadmuzammilsharif.locationhelper:locationhelper:1.2'
+		implementation 'com.muhammadmuzammilsharif.locationhelper:locationhelper:1.2.4'
+		implementation 'com.google.android.gms:play-services-location:11.8.0'
+		
+**Note:** Make sure you are using latest version of google play service here I'm using _**"11.8.0"**_ which is currently latest one.  
+
 if your application not using jcenter repository then add  
 **_(only if in repositories session "jcenter()" is not included_**
 		
@@ -31,7 +35,7 @@ if your application not using jcenter repository then add
     	<uses-permission android:name="android.permission.INTERNET"/>
 
 ### Include In Activity ###
-extend "**LocationAppCompatActivity** OR **LocationFragmentActivity** OR **LocationBaseActivity** OR **LocationActionBarActivity**"
+extend "**LocationAppCompatActivity** OR **LocationFragmentActivity** OR **LocationBaseActivity**"
 
 		public class DemoLocationActivity extends LocationAppCompatActivity { 
 			...
