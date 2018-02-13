@@ -1,11 +1,11 @@
-# Location Helper Demo #
+# Location Manager #
 
 A location helper demo that let you get device current location using fused location provider (i.e. works even in the absence of internet).  
 (Fused Location Provider is a Google Play Service Location APIs).
 
 ## Introduction: ##
 
-This Demo Application will help you how to get device current location in your application's activity or fragment by added a few lines of code. For a working implementation please have a look at sample application _"[**LocationHelperDemo**](https://github.com/MuhammadMuzammilSharif/LocationHelperDemo)"_.
+This Demo Application will help you how to get device current location in your application's activity or fragment by added a few lines of code. For a working implementation please have a look at sample application _"[**LocationManager**](https://github.com/MuhammadMuzammilSharif/LocationManager)"_.
 
 ## Usage: ##
 
@@ -170,7 +170,7 @@ there are some screen shots of demoLcoationHelper Application bellow:
 
 ## Licence: ##
 
-Copyright (C) 2017 Muhammad Muzammil Sharif
+Copyright (C) 2018 Muhammad Muzammil Sharif
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
