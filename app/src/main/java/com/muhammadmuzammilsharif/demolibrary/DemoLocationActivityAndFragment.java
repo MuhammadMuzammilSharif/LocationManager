@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.widget.TextView;
 
-import com.muhammadmuzammilsharif.locationhelper.Location.LocationActivity;
 import com.muhammadmuzammilsharif.locationhelper.Location.LocationAppCompatActivity;
 import com.muhammadmuzammilsharif.locationhelper.Location.OnLocationChangeListener;
 

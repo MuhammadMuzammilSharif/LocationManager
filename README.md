@@ -1,6 +1,6 @@
 # Location Manager #
 
-A location helper demo that let you get device current location using fused location provider (i.e. works even in the absence of internet).  
+A location Manager demo that let you get device current location using fused location provider (i.e. works even in the absence of internet).  
 (Fused Location Provider is a Google Play Service Location APIs).
 
 ## Introduction: ##
@@ -13,10 +13,10 @@ To use Location helper Library for getting device current location you just need
 ### Prerequisites: ###
 1. Include library to build.gradle app level:
 
-		implementation 'com.muhammadmuzammilsharif.locationhelper:locationhelper:1.2.4'
-		implementation 'com.google.android.gms:play-services-location:11.8.0'
+		implementation 'com.muhammadmuzammilsharif.locationhelper:locationhelper:1.2.5'
+		implementation 'com.google.android.gms:play-services-location:15.0.0'
 		
-**Note:** Make sure you are using latest version of google play service here I'm using _**"11.8.0"**_ which is currently latest one.  
+**Note:** Make sure you are using latest version of google play service here I'm using _**"15.0.0"**_ which is currently latest one.  
 
 if your application not using jcenter repository then add  
 **_(only if in repositories session "jcenter()" is not included_**
